@@ -1,50 +1,25 @@
-# kicad-libraries
-KiCad custom part libraries
+# KiCad-libraries
 
-kicad-libraries/
-├─ README.md
-├─ CONTRIBUTING.md
-├─ CHANGELOG.md
-├─ .gitignore
-├─ docs/
-│  ├─ library-standards.md
-│  ├─ naming-conventions.md
-│  ├─ review-checklist.md
-│  └─ release-process.md
-├─ symbols/
-│  ├─ approved/
-│  │  ├─ passives.kicad_sym
-│  │  ├─ connectors.kicad_sym
-│  │  ├─ power.kicad_sym
-│  │  ├─ ic-analog.kicad_sym
-│  │  └─ ic-digital.kicad_sym
-│  ├─ draft/
-│  │  └─ work-in-progress.kicad_sym
-│  └─ obsolete/
-│     └─ deprecated.kicad_sym
-├─ footprints/
-│  ├─ approved/
-│  │  ├─ Passives.pretty/
-│  │  ├─ Connectors.pretty/
-│  │  ├─ Packages_QFN.pretty/
-│  │  ├─ Packages_QFP.pretty/
-│  │  └─ Power.pretty/
-│  ├─ draft/
-│  │  └─ Draft.pretty/
-│  └─ obsolete/
-│     └─ Obsolete.pretty/
-├─ 3dmodels/
-│  ├─ approved/
-│  │  ├─ passives/
-│  │  ├─ connectors/
-│  │  ├─ qfn/
-│  │  └─ qfp/
-│  ├─ draft/
-│  └─ obsolete/
-├─ templates/
-│  ├─ new-part-request.md
-│  ├─ footprint-review.md
-│  └─ symbol-review.md
-└─ part-data/
-   ├─ approved-parts.csv
-   └─ manufacturer-links.csv
+Personal KiCad symbol, footprint, and 3D model libraries (killess).
+
+## Structure
+- `symbols/` — schematic symbols (.kicad_sym), one file per category
+- `footprints/` — PCB footprints (.pretty folders), one folder per category
+- `3dmodels/` — 3D models (.3dshapes folders, .step preferred)
+- `templates/` — reusable sheet/project templates
+- `docs/` — conventions and changelog
+
+## Using this library
+
+### As a submodule in a project
+git submodule add https://github.com/killess/KiCad-libraries.git libs/kicad-libraries
+
+Pin to a tagged release rather than main:
+cd libs/kicad-libraries
+git checkout v1.0.0
+
+### Environment variable
+Set KICAD_LIBS_KILLESS in KiCad → Preferences → Configure Paths, pointing at wherever this repo is cloned.
+
+## Conventions
+See docs/symbol-guidelines.md.
