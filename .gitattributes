@@ -4,4 +4,3 @@
 *.kicad_dru text eol=lf
 *.step binary
 *.stp binary
-*.wrl text eol=lf
