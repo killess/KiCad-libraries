@@ -570,16 +570,6 @@
 				(hide yes)
 			)
 		)
-		(property "VENDOR" "Linear Technology"
-			(at 15.494 -28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Digi-Key" "LT8609IMSE#TRPBFCT-ND"
 			(at 0 0 0)
 			(effects
