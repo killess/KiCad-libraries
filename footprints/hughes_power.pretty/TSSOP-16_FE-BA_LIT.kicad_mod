@@ -1,4 +1,4 @@
-(footprint "TSSOP-16_FE/BA_LIT" (version 20211014) (generator pcbnew)
+(footprint "TSSOP-16_FE-BA_LIT" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tags "LTC3602EFE-PBF ")
   (attr smd)
