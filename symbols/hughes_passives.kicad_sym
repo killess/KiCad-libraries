@@ -46,7 +46,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Digi-Key" "490-3992-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM18EG221SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -306,15 +324,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -333,6 +342,33 @@
 			)
 		)
 		(property "ki_fp_filters" "IND_DLP11S_0504_MUR IND_DLP11S_0504_MUR-M IND_DLP11S_0504_MUR-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "490-5143-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DLP11SN900HL2L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 150mA DCR 1.88Ohm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -700,15 +736,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -727,6 +754,33 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT26_DIO SOT26_DIO-M SOT26_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "DT1042-04SO-7DICT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DT1042-04SO-7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9V Clamp 6A (8/20us) Ipp Tvs Diode Surface Mount SOT-26"
 			(at 0 0 0)
 			(effects
 				(font

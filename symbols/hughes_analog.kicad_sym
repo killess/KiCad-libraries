@@ -54,24 +54,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-35181-1-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "LM7321MFX/NOPB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "LM7321MFX/NOPB"
 			(at 0 0 0)
 			(effects
@@ -82,6 +64,24 @@
 			)
 		)
 		(property "ki_fp_filters" "MF05A MF05A-M MF05A-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "296-35181-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM7321MFX/NOPB"
 			(at 0 0 0)
 			(effects
 				(font

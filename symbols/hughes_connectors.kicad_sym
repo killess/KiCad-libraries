@@ -94,6 +94,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key" "1175-1733-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3221-10-0100-00"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "3221-10-0100-00_0_0"
 			(rectangle
 				(start -5.08 -7.62)

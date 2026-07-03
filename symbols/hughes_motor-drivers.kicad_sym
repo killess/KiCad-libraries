@@ -45,15 +45,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -72,6 +63,33 @@
 			)
 		)
 		(property "ki_fp_filters" "DSG0008A DSG0008A_NV"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "296-40081-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV8838DSGR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Motor Driver NMOS On/Off 8-WSON (2x2)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -303,7 +321,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Digi-Key" "296-DRV8874PWPRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV8874PWPR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar Motor Driver NMOS PWM 16-HTSSOP"
 			(at 0 0 0)
 			(effects
 				(font

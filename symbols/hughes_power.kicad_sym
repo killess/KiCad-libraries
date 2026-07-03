@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-LP5009RUKRCT-ND"
+		(property "ki_keywords" "led"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104,7 +104,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "led"
+		(property "Digi-Key" "296-LP5009RUKRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP5009RUKR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -571,18 +580,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "lt8609imse#trpbf"
-			(at 15.24 -26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFN" "LT8609IMSE#TRPBF"
-			(at 13.462 -41.91 0)
+		(property "Digi-Key" "LT8609IMSE#TRPBFCT-ND"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,8 +589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "LT8609IMSE#TRPBFCT-ND"
-			(at 13.462 -44.704 0)
+		(property "MPN" "LT8609IMSE#TRPBF"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,24 +873,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "505-LT8610AEMSE-5#PBF-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "LT8610AEMSE-5#PBF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "LT8610AEMSE-5#PBF"
 			(at 0 0 0)
 			(effects
@@ -902,6 +883,24 @@
 			)
 		)
 		(property "ki_fp_filters" "MSOP-16_MSE_LTI MSOP-16_MSE_LTI-M MSOP-16_MSE_LTI-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "505-LT8610AEMSE-5#PBF-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LT8610AEMSE-5#PBF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1297,24 +1296,6 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "LTC3602EFE#PBF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "505-LTC3602EFE#PBF-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "LTC3602EFE#PBF"
 			(at 0 0 0)
 			(effects
@@ -1325,6 +1306,24 @@
 			)
 		)
 		(property "ki_fp_filters" "TSSOP-16_FE/BA_LIT TSSOP-16_FE/BA_LIT-M TSSOP-16_FE/BA_LIT-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "505-LTC3602EFE#PBF-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC3602EFE#PBF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1690,24 +1689,6 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "LTC3621IDCB-23.3#TRMPBF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "505-LTC3621IDCB-23.3#TRMPBFCT-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "LTC3621IDCB-23.3#TRMPBF"
 			(at 0 0 0)
 			(effects
@@ -1718,6 +1699,24 @@
 			)
 		)
 		(property "ki_fp_filters" "DFN-6_DCB_LIT DFN-6_DCB_LIT-M DFN-6_DCB_LIT-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "505-LTC3621IDCB-23.3#TRMPBFCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC3621IDCB-23.3#TRMPBF"
 			(at 0 0 0)
 			(effects
 				(font

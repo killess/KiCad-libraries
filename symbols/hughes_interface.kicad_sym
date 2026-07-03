@@ -45,15 +45,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -72,6 +63,33 @@
 			)
 		)
 		(property "ki_fp_filters" "SOIC-16W_SIL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "336-2083-5-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SI8640BD-B-IS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Digital Isolator 5000Vrms 4 Channel 150Mbps 35kV/us CMTI 16-SOIC (0.295", 7.50mm Width)"
 			(at 0 0 0)
 			(effects
 				(font
