@@ -1,0 +1,37 @@
+KiCad-libraries (hughes_* symbol, footprint, and 3D model libraries)
+Copyright (c) 2026 Gregory Dennis Hughes
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC-BY-SA 4.0). To view a copy of this license, visit
+https://creativecommons.org/licenses/by-sa/4.0/legalcode or send a letter to
+Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+Exception (standard KiCad library waiver):
+
+To the extent that the creation of electronic designs that use 'Licensed
+Material' can be considered to be 'Adapted Material', the copyright holder
+waives Article 3 of the license with respect to those designs and any
+generated files which use data provided as part of the 'Licensed Material'.
+
+In plain terms: this library is licensed so that it can be freely used for
+commercial, closed, and non-commercial projects without restriction. Using
+these symbols, footprints, or 3D models in your own schematic or PCB design
+does not require you to license your design, or any files generated from it,
+under CC-BY-SA 4.0, and does not require you to credit or attribute this
+library within your design.
+
+However, if you redistribute this library itself, or any part of it
+(including in modified form), as a library collection, the exception above
+does not apply -- the redistributed library collection must be shared under
+this same license (CC-BY-SA 4.0), and must retain attribution information,
+including this license file.
+
+This library is provided in the hope that it will be useful, but is provided
+WITHOUT WARRANTY OF ANY KIND, express or implied, including but not limited
+to the implied warranties of merchantability and fitness for a particular
+purpose. In no event shall the copyright holder be liable for any claim,
+damages, or other liability arising from the use of this library.
+
+This license is intended to be compatible with, and follows the same
+convention as, the official KiCad library license
+(https://www.kicad.org/libraries/license/).
