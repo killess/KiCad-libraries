@@ -2843,7 +2843,7 @@
 				(alternate "RCC_OSC32_OUT" bidirectional line)
 			)
 			(pin power_in line
-				(at 0 -71.12 90)
+				(at -7.62 -71.12 90)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -3054,7 +3054,7 @@
 				(alternate "USB_OTG_HS_ULPI_NXT" bidirectional line)
 			)
 			(pin power_in line
-				(at 2.54 -71.12 90)
+				(at 6.35 -71.12 90)
 				(length 5.08)
 				(name "VSSA"
 					(effects
@@ -3230,10 +3230,9 @@
 				(alternate "USART2_RX" bidirectional line)
 				(alternate "USB_OTG_HS_ULPI_D0" bidirectional line)
 			)
-			(pin passive line
-				(at 0 -71.12 90)
+			(pin power_in line
+				(at -5.08 -71.12 90)
 				(length 5.08)
-				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -3864,10 +3863,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -71.12 90)
+			(pin power_in line
+				(at -2.54 -71.12 90)
 				(length 5.08)
-				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -4539,10 +4537,9 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -71.12 90)
 				(length 5.08)
-				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -5198,10 +5195,9 @@
 				(alternate "LPTIM1_IN2" bidirectional line)
 				(alternate "UART8_TX" bidirectional line)
 			)
-			(pin passive line
-				(at 0 -71.12 90)
+			(pin power_in line
+				(at 2.54 -71.12 90)
 				(length 5.08)
-				(hide yes)
 				(name "VSS"
 					(effects
 						(font
