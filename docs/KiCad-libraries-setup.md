@@ -45,19 +45,12 @@ Nickname in the library table always matches the filename (e.g. nickname `hughes
 
 ## 3. Environment variable
 
-Set in KiCad Preferences → **Configure Paths**:
+Set in KiCad `Preferences` (Drop-Down menubar) → **Configure Paths**:
 
 | Name | Path |
 |---|---|
-| `KICAD_LIBS_KILLESS` | `F:\GitHub\KiCad-libraries` |
+| `KICAD_LIBS_HUGHES` | `F:\GitHub\KiCad-libraries` |
 
-> Note: variable name still carries the old `killess` handle from before the naming convention changed to `hughes_`. Functionally fine (it's just a variable name), but worth renaming to something like `KICAD_LIBS_HUGHES` for consistency if you want to clean it up later — would require updating this variable in Configure Paths and re-pointing any symbol/footprint paths that reference it.
-
-Symbol/footprint/3D paths reference this variable so the whole library folder can be relocated without breaking anything, e.g.:
-```
-${KICAD_LIBS_KILLESS}/symbols/hughes_power.kicad_sym
-${KICAD_LIBS_KILLESS}/footprints/hughes_power.pretty
-```
 
 ## 4. Library table setup
 
@@ -65,13 +58,13 @@ ${KICAD_LIBS_KILLESS}/footprints/hughes_power.pretty
 
 | Nickname | Library Path | Format |
 |---|---|---|
-| `hughes_power` | `${KICAD_LIBS_KILLESS}/symbols/hughes_power.kicad_sym` | KiCad |
+| `hughes_power` | `${KICAD_LIBS_HUGHES}/symbols/hughes_power.kicad_sym` | KiCad |
 
 **Preferences → Manage Footprint Libraries → Global Libraries:**
 
 | Nickname | Library Path | Format |
 |---|---|---|
-| `hughes_power` | `${KICAD_LIBS_KILLESS}/footprints/hughes_power.pretty` | KiCad |
+| `hughes_power` | `${KICAD_LIBS_HUGHES}/footprints/hughes_power.pretty` | KiCad |
 
 ## 5. Symbol/footprint field convention
 
@@ -140,7 +133,7 @@ Used as the template part for the whole workflow above. Reference details:
 
 ## 8. Open items / not yet done
 
-- Rename `KICAD_LIBS_KILLESS` env var to something matching the `hughes_` convention (optional cleanup).
+- Rename `KICAD_LIBS_HUGHES` env var to something matching the `hughes_` convention (optional cleanup).
 - Full round-trip PCB placement test for BQ34Z100-G1 not yet confirmed complete.
 - `docs/symbol-guidelines.md` referenced in earlier planning but not yet written as a standalone file — this document currently serves that purpose but could be split out.
 - Additional category libraries (`hughes_mcu-st`, `hughes_connectors`, `hughes_sensors`, `hughes_misc`) not yet created — only `hughes_power` exists so far.

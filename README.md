@@ -19,7 +19,7 @@ cd libs/kicad-libraries
 git checkout v1.0.0
 
 ### Environment variable
-Set KICAD_LIBS_KILLESS in KiCad → Preferences → Configure Paths, pointing at wherever this repo is cloned.
+Set KICAD_LIBS_HUGHES in KiCad → Preferences → Configure Paths, pointing at wherever this repo is cloned.
 
 ## Conventions
 See docs/symbol-guidelines.md.
