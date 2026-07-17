@@ -1,4 +1,4 @@
-# KiCad-libraries
+# Hughes KiCad-libraries
 
 Personal KiCad symbol, footprint, and 3D model libraries (killess).
 
@@ -12,10 +12,10 @@ Personal KiCad symbol, footprint, and 3D model libraries (killess).
 ## Using this library
 
 ### As a submodule in a project
-git submodule add https://github.com/killess/KiCad-libraries.git libs/kicad-libraries
+git submodule add https://github.com/killess/Hughes-KiCad-lib.git libs/kicad-libraries
 
 Pin to a tagged release rather than main:
-cd libs/kicad-libraries
+cd libs/Hughes-KiCad-lib
 git checkout v1.0.0
 
 ### Environment variable
